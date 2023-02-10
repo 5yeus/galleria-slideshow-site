@@ -3,11 +3,6 @@
   box-sizing: border-box;
 }
 
-.divider {
-  border: 1px solid #e5e5e5;
-  flex-basis: 100%;
-}
-
 .slideshow {
   min-height: 100vh;
   display: flex;
@@ -51,7 +46,7 @@
 
 .slideshow-section {
   width: 100%;
-  padding-top: 4rem;
+  padding-top: 1rem;
   padding-bottom: 4rem;
   display: grid;
   grid-template-columns: 65% 35%;
@@ -83,7 +78,7 @@
   position: absolute;
   left: 28%;
   right: 0%;
-  top: 30.999997%;
+  top: 18.999997%;
   bottom: 0%;
   display: flex;
   flex-direction: column;
@@ -92,13 +87,6 @@
   gap: 0.7rem;
   padding: 0.5rem 2.5rem 0 2.5rem;
 }
-
-
-
-
-
-
-
 
 .gallery-name > h1 {
   font-family: "Libre-Baskerville-Bold";
@@ -254,7 +242,7 @@
 
 /*Footer*/
 .progressBar {
-  margin-top: -1px;
+  margin-top: -2px;
   display: block;
   background-color: #000000;
   margin-left: 0 !important;
@@ -273,14 +261,14 @@
   z-index: -1;
  
 }
-*/ .footer {
+ .footer {
   align-self: flex-end;
   top: 10rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 96px;
+  height: 85px;
 }
 
 .footer-details {
