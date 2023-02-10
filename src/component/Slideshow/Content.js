@@ -28,7 +28,6 @@ const Content = () => {
                     <span style={{color: '#fff'}}  onClick={() => setPreview(!preview)}><h5>Close</h5></span>
                         <img src={Slideshowdata[counter].images.hero.small.toString()} alt="" />
                 </div>
-
             </div>
             <div className="slideshow-section">
                 <div className='gallery-details'>
